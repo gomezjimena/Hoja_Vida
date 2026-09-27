@@ -3,7 +3,10 @@
 Hoja de vida / portafolio interactivo construido con **Next.js 14**, **TypeScript** y **TailwindCSS**, siguiendo el diseño base propuesto en Figma y organizado con **Atomic Design** (átomos, moléculas y organismos) para maximizar la reutilización de componentes.
 
 ## Link del vercel desplegado: 
-[text](https://hoja-vida-sage.vercel.app)
+[ vercel desplegado](https://hoja-vida-sage.vercel.app)
+
+## Link del repo personal
+[Repo personal](https://github.com/gomezjimena/Hoja_Vida)
 
 ## Propósito
 
