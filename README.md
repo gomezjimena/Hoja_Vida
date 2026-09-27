@@ -34,21 +34,13 @@ npm run dev
 
 Abre [http://localhost:3000] en tu navegador.
 
-## Despliegue en Vercel
-
-1. Sube este proyecto a un repositorio de GitHub.
-2. En [vercel.com](https://vercel.com), elige "New Project" e importa el repositorio.
-3. Vercel detecta automáticamente que es un proyecto Next.js — no necesitas configurar nada más.
-4. Al finalizar el despliegue obtendrás una URL pública para compartir.
-
 ## Decisiones de diseño
 
-- **Paleta:** azul de "plano técnico" (`#101B33`) en el sidebar, fondo neutro (`#F5F6F8`) en el contenido y un acento ámbar (`#E8A33D`) inspirado en las anotaciones de un plano — una referencia visual a la ingeniería de sistemas.
+- **Paleta:** azul de "plano técnico" (`#101B33`) en el sidebar, fondo neutro (`#F5F6F8`) en el contenido y un acento ámbar (`#E8A33D`) inspirado en las anotaciones de un plano.
 - **Tipografía:** `Fraunces` para títulos y `IBM Plex Sans` para el cuerpo del texto (cargadas con `next/font/google`, se optimizan automáticamente en el build).
 - **Íconos:** se usa [`lucide-react`](https://lucide.dev) en lugar de Flaticon/Iconify para poder tipar los nombres de ícono en TypeScript
 - **Componentes reutilizables (mínimo 6 exigidos):** `Icon`, `Button`, `ProgressBar`, `SkillItem`, `KnowledgeCard`, `EducationCard`, `ProjectCard`, `SocialIconLink` y `Modal` — 9 en total, usados en más de dos lugares del código.
 
 ## Notas
 
-- El proyecto se compiló y verificó localmente (`npm run build`) sin errores de TypeScript.
 - Las fuentes de Google requieren acceso a internet durante `npm run build` / `npm run dev`; esto funciona sin problema en tu máquina y en Vercel.
